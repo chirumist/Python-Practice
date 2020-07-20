@@ -1,7 +1,7 @@
 """
 star pattern test start
 """
-f = open("looptest.txt", "r+")
+f = open("../text-files/looptest.txt", "r+")
 n = int(input("Star height row: \n"))
 raverse = int(input("for reverse star enter 1 = 'Yes' 0 = 'No'"))
 # print(raverse)
