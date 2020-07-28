@@ -1,9 +1,6 @@
 import datetime
 
 
-# health-management
-
-
 def getDate():
     return datetime.datetime.now()
 
