@@ -19,6 +19,10 @@ class Student:
     @classmethod
     def from_string_by_colon(cls,str):
         return cls(*str.split(":"))
+
+    @classmethod
+    def from_string_by_coma(cls, str):
+        return cls(*str.split(","))
     pass
 
 
@@ -56,3 +60,6 @@ print(friends.__dict__)
 
 newfriends = Student.from_string_by_colon("NCOMPANY:35:GTA-CEO")
 print(newfriends.__dict__)
+
+chirag = Student.from_string_by_coma("Chirag,22,Developer")
+print(chirag.__dict__)
